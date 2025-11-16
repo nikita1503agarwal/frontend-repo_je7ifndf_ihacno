@@ -15,7 +15,7 @@ const Card = ({ name, price, points }) => (
 
 export default function Pricing() {
   return (
-    <section className="py-16">
+    <section id="pricing" className="py-16">
       <div className="mx-auto max-w-6xl px-6">
         <h2 className="text-2xl font-semibold text-neutral-900">Pricing</h2>
         <div className="mt-6 grid md:grid-cols-3 gap-6">
